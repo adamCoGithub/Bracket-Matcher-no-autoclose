@@ -5,13 +5,13 @@ module.exports =
   config:
     autocompleteBrackets:
       type: 'boolean'
-      default: true
+      default: false
     autocompleteSmartQuotes:
       type: 'boolean'
-      default: true
+      default: false
     wrapSelectionsInBrackets:
       type: 'boolean'
-      default: true
+      default: false
 
   activate: ->
     atom.workspace.observeTextEditors (editor) ->
